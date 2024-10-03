@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Quefrency Matrix Mapping",
+    "css": "@import url(http://fonts.googleapis.com/css?family=Work+Sans);\n.keylabel { font-family: 'Work Sans';}"
+  },
+  [
+    {
+      "sm": "cherry"
+    },
+    "^\n6\n\n\n\n\n\n\n\nA9",
+    "&\n7\n\n\n\n\n\n\n\nA1",
+    "*\n8\n\n\n\n\n\n\n\nA2",
+    "(\n9\n\n\n\n\n\n\n\nA3",
+    ")\n0\n\n\n\n\n\n\n\nA4",
+    "_\n-\n\n\n\n\n\n\n\nA5",
+    "+\n=\n\n\n\n\n\n\n\nA6",
+    {
+      "c": "#36a8d6",
+      "w": 2
+    },
+    "Backspace\n\n\n\n2\n\n\n\n\nA8",
+    {
+      "c": "#cccccc"
+    },
+    "~\n`\n\n\n\n\n\n\n\nA3"
+  ],
+  [
+    {
+      "x": 0.5
+    },
+    "Y\n\n\n\n\n\n\n\n\nB1",
+    "U\n\n\n\n\n\n\n\n\nB2",
+    "I\n\n\n\n\n\n\n\n\nB3",
+    "O\n\n\n\n\n\n\n\n\nB4",
+    "P\n\n\n\n\n\n\n\n\nB5",
+    "{\n[\n\n\n\n\n\n\n\nB6",
+    "}\n]\n\n\n\n\n\n\n\nB7",
+    {
+      "x": 0.25,
+      "c": "#318db0",
+      "a": 7,
+      "w": 1.25,
+      "h": 2,
+      "w2": 1.5,
+      "h2": 1,
+      "x2": -0.25
+    },
+    "",
+    {
+      "a": 4
+    },
+    "Del\n\n\n\n1\n\n\n\n\nA7"
+  ],
+  [
+    {
+      "x": 0.75,
+      "c": "#cccccc"
+    },
+    "H\n\n\n\n\n\n\n\n\nC1",
+    "J\n\n\n\n\n\n\n\n\nC2",
+    "K\n\n\n\n\n\n\n\n\nC3",
+    "L\n\n\n\n\n\n\n\n\nC4",
+    ":\n;\n\n\n\n\n\n\n\nC5",
+    "\"\n'\n\n\n\n\n\n\n\nC6",
+    {
+      "c": "#318db0",
+      "a": 7
+    },
+    "",
+    {
+      "x": 1.25,
+      "c": "#cccccc",
+      "a": 4
+    },
+    "Pg Up\n\n\n\n\n\n\n\n\nC9"
+  ],
+  [
+    {
+      "x": 1.25
+    },
+    "N\n\n\n\n\n\n\n\n\nD1",
+    "M\n\n\n\n\n\n\n\n\nD2",
+    "<\n,\n\n\n\n\n\n\n\nD3",
+    ">\n.\n\n\n\n\n\n\n\nD4",
+    {
+      "c": "#1ec93c"
+    },
+    "?\n/\n\n\n1\n\n\n\n\nD5",
+    {
+      "c": "#2aa84e",
+      "w": 1.75
+    },
+    "Shift\n\n\n\n1.75\n\n\n\n\nDy7",
+    {
+      "c": "#248542"
+    },
+    "Up\n\n\n\n1\n\n\n\n\nD8",
+    {
+      "c": "#cccccc"
+    },
+    "Pg Dn\n\n\n\n\n\n\n\n\nD9"
+  ],
+  [
+    {
+      "x": 1.25,
+      "c": "#74b9d6",
+      "w": 2.75
+    },
+    "Space\n\n\n\n2.75\n\n\n\n\nE2",
+    {
+      "c": "#92d0d4"
+    },
+    "Alt\n\n\n\n1\n\n\n\n\nEx3",
+    {
+      "c": "#41a6ab"
+    },
+    "Ctrl\n\n\n\n1\n\n\n\n\nEx4",
+    {
+      "c": "#92d499"
+    },
+    "Win\n\n\n\n1\n\n\n\n\nE5",
+    {
+      "c": "#c7d492"
+    },
+    "Left\n\n\n\n1\n\n\n\n\nEx7",
+    {
+      "c": "#d49692"
+    },
+    "Down\n\n\n\n1\n\n\n\n\nEx8",
+    {
+      "c": "#cccccc"
+    },
+    "Right\n\n\n\n\n\n\n\n\nE9"
+  ]
+]
