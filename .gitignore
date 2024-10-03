@@ -2,3 +2,4 @@ backup_20241003/*
 hours.txt
 SISK_right/SISK_right-backups/*
 SISK_left/SISK_left-backups/*
+*.lck
