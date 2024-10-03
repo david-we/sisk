@@ -1,2 +1,6 @@
 # sisk
-a DIY split keyboard project 
+
+
+split ISO staggered keyboard project 
+
+WIP
