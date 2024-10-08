@@ -7621,7 +7621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
+		(property "Footprint" "nice-nano-kicad-master:nice_nano"
 			(at 195.58 83.82 0)
 			(effects
 				(font
