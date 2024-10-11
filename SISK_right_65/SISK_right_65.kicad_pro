@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.3,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -20,21 +20,21 @@
           "arrow_length": 1270000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
-          "suppress_zeroes": false,
-          "text_position": 0,
+          "suppress_zeroes": true,
+          "text_position": 1,
           "units_format": 1
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.5,
         "fab_text_size_v": 1.5,
-        "fab_text_thickness": 0.15,
+        "fab_text_thickness": 0.2,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.5,
         "other_text_size_v": 1.5,
-        "other_text_thickness": 0.15,
+        "other_text_thickness": 0.2,
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
@@ -45,7 +45,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.5,
         "silk_text_size_v": 1.5,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.25
@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|226977628|228614543|a45f4589-ca0b-4471-a9ba-0dcda7079179|ade6b46b-e565-473b-9c49-04f56fa83adc",
-        "copper_edge_clearance|232210218|223381953|a45f4589-ca0b-4471-a9ba-0dcda7079179|e9ed2b74-eb3d-4e9e-b9a9-7ef1f2a40059"
+        "copper_edge_clearance|89455457|43177628|e9c867fb-61d2-48bb-b286-b38028cb3564|3e0f3dea-5164-4715-9663-40c2660fef35",
+        "copper_edge_clearance|94688047|48410218|e9c867fb-61d2-48bb-b286-b38028cb3564|029d66fe-39a8-4c87-be6e-7a81f98baa85"
       ],
       "meta": {
         "version": 2
@@ -80,7 +80,7 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -93,7 +93,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
+        "missing_footprint": "error",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
@@ -109,17 +109,17 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.25,
         "min_connection": 0.2,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
@@ -134,7 +134,7 @@
         "min_track_width": 0.25,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SISK_left.kicad_pro",
+    "filename": "SISK_right_65.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -527,7 +527,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -572,7 +572,7 @@
           "group_by": false,
           "label": "Label",
           "name": "Label",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -622,7 +622,7 @@
   },
   "sheets": [
     [
-      "99dcbd5e-f63f-486b-b0e7-a7e7dc92d23d",
+      "257e25c7-95c4-4199-9825-6959824a558c",
       "Root"
     ]
   ],

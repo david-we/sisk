@@ -1,5 +1,10 @@
 backup_20241003/*
 hours.txt
-SISK_right/SISK_right-backups/*
+SISK_right_65/SISK_right_65-backups/*
+SISK_right_65/production
+SISK_right_60/SISK_right_60-backups/*
+SISK_right_60/production
+SISK_left/production
 SISK_left/SISK_left-backups/*
 *.lck
+temp/
