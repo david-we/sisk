@@ -501,7 +501,7 @@
 				)
 			)
 			(symbol "MCU_Nice_Nano_V2_1_1"
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 13.97 0)
 					(length 5.08)
 					(name "1"
@@ -519,7 +519,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -8.89 0)
 					(length 5.08)
 					(name "7"
@@ -537,7 +537,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -11.43 0)
 					(length 5.08)
 					(name "8"
@@ -555,7 +555,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -13.97 0)
 					(length 5.08)
 					(name "9"
@@ -573,7 +573,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -13.97 180)
 					(length 5.08)
 					(name "10"
@@ -591,7 +591,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -11.43 180)
 					(length 5.08)
 					(name "16"
@@ -609,7 +609,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -8.89 180)
 					(length 5.08)
 					(name "14"
@@ -627,7 +627,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -6.35 180)
 					(length 5.08)
 					(name "15"
@@ -645,7 +645,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -3.81 180)
 					(length 5.08)
 					(name "18"
@@ -663,7 +663,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -1.27 180)
 					(length 5.08)
 					(name "19"
@@ -681,7 +681,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 1.27 180)
 					(length 5.08)
 					(name "20"
@@ -699,7 +699,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 11.43 0)
 					(length 5.08)
 					(name "0"
@@ -717,7 +717,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 3.81 180)
 					(length 5.08)
 					(name "21"
@@ -735,7 +735,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "3.3v"
@@ -753,7 +753,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 8.89 180)
 					(length 5.08)
 					(name "RST"
@@ -771,7 +771,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 11.43 180)
 					(length 5.08)
 					(name "GND"
@@ -807,7 +807,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 8.89 0)
 					(length 5.08)
 					(name "GND"
@@ -825,7 +825,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 6.35 0)
 					(length 5.08)
 					(name "GND"
@@ -843,7 +843,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 3.81 0)
 					(length 5.08)
 					(name "2"
@@ -861,7 +861,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 1.27 0)
 					(length 5.08)
 					(name "3"
@@ -879,7 +879,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -1.27 0)
 					(length 5.08)
 					(name "4"
@@ -897,7 +897,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -3.81 0)
 					(length 5.08)
 					(name "5"
@@ -915,7 +915,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 -6.35 0)
 					(length 5.08)
 					(name "6"
