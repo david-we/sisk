@@ -29,4 +29,6 @@ last year i made this thing, which is kind of the predecessor of SiSK. But handw
 
 ## pics
 
+![sisk](/pics/rev1.0_left_2.png)
 
+![sisk](/pics/rev1.0_right.png)
