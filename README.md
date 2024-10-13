@@ -34,7 +34,9 @@ last year i made this thing, which is kind of the predecessor of SiSK. But handw
 
 ## next steps
 
-waiting for PCBs :) 
+- waiting for PCBs :)
+- first time soldering SMD
+- get involved with the firmware (ZMK probably)
 
 ## ideas for future
 
