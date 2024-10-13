@@ -5476,7 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "Alt"
+		(property "Label" "Fn"
 			(at 88.9 105.918 0)
 			(effects
 				(font
@@ -5880,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "Fn"
+		(property "Label" "Alt"
 			(at 106.68 104.14 0)
 			(effects
 				(font
@@ -11913,7 +11913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "Fn2"
+		(property "Label" "Super"
 			(at 121.92 104.14 0)
 			(effects
 				(font

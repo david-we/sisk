@@ -6564,8 +6564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "Fn"
-			(at 107.95 92.71 0)
+		(property "Label" "Super"
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn"
+		(property "Value" "Batt"
 			(at 277.622 48.26 0)
 			(effects
 				(font
@@ -9405,7 +9405,7 @@
 			)
 		)
 		(property "Label" "Ctrl"
-			(at 123.19 92.71 0)
+			(at 123.19 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
