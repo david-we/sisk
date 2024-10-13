@@ -14,10 +14,11 @@ SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v
 - wireless
 - screw on wrist wrest
 - 128x32 OLED Display (I2C)
-- based on nice!nanov2
-- plates???
-  probably 3d printed first, but would be nice to experiment with diffrent materials
-  
+
+
+
+## history
+
 ## pics
 
 
