@@ -4,9 +4,9 @@ SiSK is a split keyboard with focus on standard staggered ISO Layout. it shall b
 
 The plan is it starts as a base PCB which can then be easily used in your own DIY 3D-printed cases and DIY wrist rests. I am also planing to experiment with different cases like top mount, sandwich mount, tray mount,...
 
-SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v2 compatible Microcontroller boards and an el cheapo 128x32 i2C display for monitoring the battery...
+SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v2 compatible Microcontroller boards and el cheapo 128x32 i2C displays for monitoring the battery...
 
-### Features
+## Features
 
 - split
 - ISO
@@ -18,6 +18,6 @@ SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v
 - plates???
   probably 3d printed first, but would be nice to experiment with diffrent materials
   
-### pics
+## pics
 
 
