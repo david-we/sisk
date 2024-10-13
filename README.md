@@ -16,11 +16,14 @@ SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v
 - 128x32 OLED Display (I2C)
 - 60% and 65% Version available 
 
+##why?
+
+I know there similar keyboards out there, in fact there are also kits available that are in the same category. But still i was not satisfied with the existing solutions. Some where also hard to get in europe or had no ISO Layout. Another big point for me was the learning aspect, especially KiCAD and SMD soldering.
 
 
 ## history
 
-last year i made which is kind of the predecessor of SiSK. But handwired and driven by a raspberry pi pico 
+last year i made this thing, which is kind of the predecessor of SiSK. But handwired and driven by a raspberry pi pico. It worked very well but the connector between the two halves has sometimes loose contact. then i have to wobble around on the connector and it works again :P ... otherwise it worked flawless  
 
 
 
