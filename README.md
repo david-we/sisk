@@ -20,6 +20,11 @@ SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v
 
 I know there are similar keyboards out there, in fact there are also kits available that are in the same category. But still i was not satisfied with the existing solutions. Some where also hard to get in europe or had no ISO Layout. Another big point for me was the learning aspect, especially KiCAD and SMD soldering.
 
+## pics
+
+![sisk](/pics/rev1.0_left_2.png)
+
+![sisk](/pics/rev1.0_right.png)
 
 ### history
 
@@ -27,8 +32,11 @@ last year i made this thing, which is kind of the predecessor of SiSK. But handw
 
 ![sisk](/pics/pre-sisk.png)
 
-## pics
+## next steps
 
-![sisk](/pics/rev1.0_left_2.png)
+waiting for PCBs :) 
 
-![sisk](/pics/rev1.0_right.png)
+## ideas for future
+
+- ANSI layout
+
