@@ -25,7 +25,7 @@ I know there are similar keyboards out there, in fact there are also kits availa
 
 last year i made this thing, which is kind of the predecessor of SiSK. But handwired and driven by a raspberry pi pico. It worked very well but the connector between the two halves has sometimes loose contact. then i have to wobble around on the connector and it works again :P ... otherwise it worked flawless  
 
-
+![sisk](/pics/pics/pre-sisk.png)
 
 ## pics
 
