@@ -1,5 +1,5 @@
 # SiSK (work in progress)
-
+<img align="right" width="200" height="200" src="pics/SISK_logo.jpeg">
 SiSK is a split keyboard with focus on standard staggered ISO Layout. it shall be a possibility for those that can or do not want to jump on the ortholinear bandwagon, but still want to have the ergonomic advantages of a split keyboard. There will be a 60% version and a 65% Version of the PCB (which are already in the making). 
 
 The plan is it starts as a base PCB which can then be easily used in your own DIY 3D-printed cases and DIY wrist rests. I am also planing to experiment with different cases like top mount, sandwich mount, tray mount,...
