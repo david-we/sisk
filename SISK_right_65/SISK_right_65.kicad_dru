@@ -61,10 +61,10 @@
 	(constraint edge_clearance (min 0.3mm))
 )
 
-#(rule "Edge (v-cut) to track clearance"
-#	(condition "A.Type == 'track'")
-#	(constraint edge_clearance (min 0.4mm))
-#)
+(rule "Edge (v-cut) to track clearance"
+	(condition "A.Type == 'track'")
+	(constraint edge_clearance (min 0.4mm))
+)
 
 # JLCPCB restrictions ambiguous:
 # Illustration: 0.2 mm, 1&2 layer: 0.3 mm, multilayer: "(0.15mm more costly)"

@@ -8,3 +8,4 @@ SISK_left/production
 SISK_left/SISK_left-backups/*
 *.lck
 temp/
+archive/

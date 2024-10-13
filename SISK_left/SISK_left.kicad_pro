@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|226977628|228614543|a45f4589-ca0b-4471-a9ba-0dcda7079179|ade6b46b-e565-473b-9c49-04f56fa83adc",
+        "copper_edge_clearance|232210218|223381953|a45f4589-ca0b-4471-a9ba-0dcda7079179|e9ed2b74-eb3d-4e9e-b9a9-7ef1f2a40059"
+      ],
       "meta": {
         "version": 2
       },
@@ -570,6 +573,12 @@
           "label": "Label",
           "name": "Label",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",

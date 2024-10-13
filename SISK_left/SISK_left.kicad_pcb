@@ -167,9 +167,9 @@
 	(net 45 "unconnected-(U1-8-Pad11)")
 	(net 46 "unconnected-(U1-5-Pad8)")
 	(net 47 "/SCL")
-	(net 48 "/VCC")
-	(net 49 "Net-(J2-Pin_1)")
-	(net 50 "Net-(J3-Pin_1)")
+	(net 48 "+3.3V")
+	(net 49 "+BATT")
+	(net 50 "+VDC")
 	(net 51 "unconnected-(U1-6-Pad9)")
 	(net 52 "unconnected-(U1-7-Pad10)")
 	(net 53 "unconnected-(U1-4-Pad7)")
@@ -591,6 +591,19 @@
 				)
 			)
 		)
+		(property "MPN" "not known yet"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd4c11d5-3800-4cc1-981a-aaa8a0aa95f6")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a87d008f-525f-47e5-852f-4cd4ebf16721")
 		(sheetname "Root")
@@ -763,7 +776,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(J3-Pin_1)")
+			(net 50 "+VDC")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "8afdfa04-1bbc-4f5b-8b09-d8965dbab386")
@@ -774,7 +787,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(J2-Pin_1)")
+			(net 49 "+BATT")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "bb609847-c917-48eb-b5f9-72d758583315")
@@ -863,12 +876,25 @@
 				)
 			)
 		)
-		(property "Label" ""
+		(property "Label" "POWER ON/OFF SW (onboard)"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "106b58fa-4099-446d-ae1f-5a93e9235c44")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MSK12C01 "
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64e3309f-41e0-4c31-ba58-dd05a90240f1")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1484,7 +1510,7 @@
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.15)
-			(net 49 "Net-(J2-Pin_1)")
+			(net 49 "+BATT")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d487361e-c617-42da-bce5-d8885dc194dc")
@@ -1494,7 +1520,7 @@
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.15)
-			(net 50 "Net-(J3-Pin_1)")
+			(net 50 "+VDC")
 			(pinfunction "B")
 			(pintype "passive")
 			(uuid "33e534da-2773-4599-8974-221ca64a923e")
@@ -1620,6 +1646,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44de8fab-2376-417a-ad59-b3cd1c257dc3")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "nice!nano v2 or compatible"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe1f4aa0-dbff-4d30-a9b4-010c59332356")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -2514,7 +2553,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "/VCC")
+			(net 48 "+3.3V")
 			(pinfunction "3.3v")
 			(pintype "output")
 			(uuid "726c514d-eb65-4fb3-bd90-7d541ade720b")
@@ -2547,7 +2586,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(J3-Pin_1)")
+			(net 50 "+VDC")
 			(pinfunction "B+")
 			(pintype "input")
 			(uuid "2ec58542-6286-4cf9-9cd9-cb1e8bd1981b")
@@ -2740,12 +2779,25 @@
 				)
 			)
 		)
-		(property "Label" "OLED_128x32"
+		(property "Label" "OLED 128x32 i2C"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae7b6580-577e-4892-a131-88bab82b5a60")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "OLED 128x32 i2C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7670f666-5a7e-4790-9db8-f1cf5bcd367d")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -2874,7 +2926,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "/VCC")
+			(net 48 "+3.3V")
 			(pinfunction "VCC")
 			(pintype "power_in")
 			(uuid "e875db50-9033-4224-88ae-81b3b9a7ed80")
@@ -2987,6 +3039,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1881d435-14be-4980-9f07-bf3a3dc96384")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9c76597-1fc6-4e5e-a712-e64ca75338fd")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -3454,6 +3520,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c021e672-4982-4ec2-b5f6-4cd4892bd746")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/973ff36d-6089-406f-a673-138e34b43761")
 		(sheetname "Root")
@@ -3831,6 +3911,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "101799f9-34b2-48f2-b4b1-9adda26df536")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3026038-229b-4f00-8648-45a415765f0b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -4224,6 +4318,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1995ca3f-0e66-4fbd-855e-78e3216a0e44")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/be66d69d-9440-4b86-b8ad-13d6db838cf8")
 		(sheetname "Root")
@@ -4609,6 +4717,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "128c6ee3-efcc-4140-ab01-f7391cd81878")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a4bc919f-cfaf-4b81-b9fa-955e11e75c10")
 		(sheetname "Root")
@@ -4952,6 +5074,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6380e872-7388-4c33-bb5e-1ac373eac2db")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3e94d5c-0b18-41f6-922b-7ad3f6aa7d62")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -5419,6 +5555,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eb8e2d0d-7b53-4703-9489-14ee30c7caef")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/48253b2c-5cc0-4a67-93f8-b2835e218843")
 		(sheetname "Root")
@@ -5707,7 +5857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "2K2"
 			(at 0 -1.82 90)
 			(layer "B.Fab")
 			(uuid "528b2d61-dcef-4b4a-801b-46fd11383c8d")
@@ -5767,6 +5917,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8841f587-e013-4d42-a592-1ccdf4189564")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "RC1206JR-072K2L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3511ba56-91bf-44e8-bca3-61a5f9506b64")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -5897,7 +6061,7 @@
 			(size 1.3 1.75)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.192308)
-			(net 48 "/VCC")
+			(net 48 "+3.3V")
 			(pintype "passive")
 			(uuid "ac43f0bc-7e43-4139-b311-2759892c5530")
 		)
@@ -6030,6 +6194,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7b0ee06c-b29c-4a59-ab6a-756f2656ed4f")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eaf8d385-fd72-42c4-887d-364f03556759")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6381,6 +6559,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a9d5bc0e-c1c1-46f5-8cf3-59c79fe51e42")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8cc05e06-9532-479b-91d4-b58f52cd568e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6806,6 +6998,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bfcdc23d-456a-4b69-aea9-acb58df7eca6")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2670a231-1abf-40ea-a10a-db3ecfe6ac0a")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -7273,6 +7479,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4772b852-04b3-47e2-aac6-e17e576a667a")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/312bd1c4-fda3-4eaa-a445-dbbf80e4cfdc")
 		(sheetname "Root")
@@ -7650,6 +7870,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1726e31-34f4-498a-bec6-1791f4bb0c1b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11fb7ae8-d0b6-4073-bb90-6c4623a2a10e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8043,6 +8277,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93fae1b3-5b17-435f-805e-696fe88b9c1d")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/fff88fcb-5540-4893-92dc-6b9ba7320c7a")
 		(sheetname "Root")
@@ -8428,6 +8676,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33cc1d28-27f2-4b13-99aa-46a15ca631c8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e622990d-53ec-4ef9-a78c-ace4f2dbefb1")
 		(sheetname "Root")
@@ -8771,6 +9033,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "46d37efc-db95-476d-b437-0ab3cac82a7e")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1381b0e-6461-4dff-b70e-0b9c6488814e")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -9238,6 +9514,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "53028f98-1afb-4df5-a452-db2913f11c14")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/083ee79e-2116-4094-ba83-4c07877a3ffc")
 		(sheetname "Root")
@@ -9581,6 +9871,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "db1e01e2-7418-4c40-90e6-f292d7103460")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61af79c3-2cc6-41a2-8d39-74a316ce444d")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10006,6 +10310,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cb28f239-1c13-4bf3-ac87-7664ff2e6db7")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "025a596e-ceea-4070-b703-6a4313ef05c2")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10474,6 +10792,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6fabf701-3168-4837-8fd0-c4fc993bbf54")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2a97e990-917a-4372-8f30-c02b057ab727")
 		(sheetname "Root")
@@ -10817,6 +11149,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eb5a8178-14d3-4a8e-8cbb-07c40862c67c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1361bc94-e4f0-4a66-b74f-db5f52d18edf")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -11250,6 +11596,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61abd589-5af8-4064-bab9-d1600c554daf")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c6eff85e-6c82-4dfd-afd5-7076a2243642")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -11675,6 +12035,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2432eb5b-595f-4d01-b574-0e56bfe9e1da")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/574f597b-ce73-40ec-be1e-761324773fc8")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -12092,6 +12466,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1e2e73a1-a616-495c-a941-34fdf1841260")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4a262fd-ae07-40d7-a3c3-8b5fcddc9394")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12559,6 +12947,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fff9e4fd-7cb9-4ad6-a5b1-482a4920dad9")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/629125ac-0a08-488e-ad5b-9cdbd5db78bc")
 		(sheetname "Root")
@@ -12902,6 +13304,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1f2039c-c62e-44db-aa75-78ee7fa2752a")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f68b229e-8271-4142-af3f-88c552998e5f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -13369,6 +13785,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c031e360-10e9-45ae-8c03-3128f64a3e51")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/3fc91f0a-661d-47ba-a5f6-a9b3dc6cbf33")
 		(sheetname "Root")
@@ -13754,6 +14184,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b4e3d078-c6b4-41d7-bd4b-5dfbe7ecea0d")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2b4bd4e0-249f-4fdb-a338-8554c94462e5")
 		(sheetname "Root")
@@ -14097,6 +14541,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c6623067-42ed-4e41-8316-0e703432f700")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39d680d0-3344-4b43-b4ca-ba2b6ba22d3a")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14522,6 +14980,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4d26dcff-362e-4684-960c-814637fb9ba4")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71b3cd4d-e01c-458b-8519-f5210ebda518")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14983,6 +15455,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4fb0f31-8faa-4216-a194-50616815dfb1")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/be2a8a9a-16a5-469c-a604-44e64a839f86")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -15400,6 +15886,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9edcb069-c0af-478a-b3c6-444a469c8a13")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "899e1c44-1bf5-4024-97cb-4c3c0c673a9f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -15833,6 +16333,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c76a979a-bdf0-4778-9ad2-c93733ef29e1")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/0544dee8-d50d-4001-9f0e-d2635817cb38")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -16250,6 +16764,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a9647045-361b-4ab0-b31c-016a08d5da64")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e4dfe301-5f48-45d0-87ce-f49c3c15c6e8")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -16683,6 +17211,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec0fc97c-fa8b-4f87-ba65-c333d34794fb")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/bf198cbc-11b1-47ee-92ea-5bd6e6460457")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -17100,6 +17642,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f7bbee77-3559-418e-9b1f-a96d8d16cf83")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4dccffe8-339f-44e4-ad07-128e0c63e1ae")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -17567,6 +18123,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f78f9b5-2e5f-4e16-906c-c1ed39090ea4")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6e760783-a224-42e3-b8bc-41d3c1db71f0")
 		(sheetname "Root")
@@ -17910,6 +18480,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6fc2a33-d816-4456-be53-5d6fbcef7d38")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f3147086-dc6f-4ac6-8706-e472b60e4811")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -18377,6 +18961,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6259a0d-cfc1-4104-b0f4-3cb0ce3e7c99")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/576d7709-5512-4ed4-a5e5-bea05d34d915")
 		(sheetname "Root")
@@ -18720,6 +19318,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6c417182-0b59-491b-a022-c7fc94b75f07")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9587d615-5914-4b76-9855-c07f4bd7b162")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -19187,6 +19799,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a7c14853-2596-4442-97d7-32427c0c41fd")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f9c8b5d0-91fd-412d-b0bb-ff837a779064")
 		(sheetname "Root")
@@ -19564,6 +20190,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eae3b9e7-0dad-4456-b66a-b6a28e8a72e2")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db8bae41-4995-4c96-9fed-c19e2af355fd")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -19957,6 +20597,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "19a5294d-8216-4dcd-bdb2-d1f8df857e84")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/087c737c-5dd7-4432-b043-0330d02d3cbd")
 		(sheetname "Root")
@@ -20300,12 +20954,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Label" "Battery conn"
+		(property "Label" "Battery connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "afa4b810-c47b-4999-b5d3-35a39b3fe03a")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "S2B-PH-K-S(LF)(SN)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88a25f90-5f8e-4ba1-815a-c8ca013aa8b8")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -20738,7 +21406,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.208333)
-			(net 49 "Net-(J2-Pin_1)")
+			(net 49 "+BATT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "3b93c0ba-58ee-45ec-8215-57420de8e21d")
@@ -20874,6 +21542,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "84d94a1a-f5f0-448f-9318-4f5814e5857d")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72e79b60-7165-4d2d-8013-ab3c2b712b7f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -21267,6 +21949,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d98d8267-a583-4519-b1dd-1e715994001f")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8a0adc54-66b3-4b0a-af81-aada29056ace")
 		(sheetname "Root")
@@ -21644,6 +22340,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1781d26e-231f-44ad-a7a8-8ef1bbe43172")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa81b355-8c32-4c32-843c-992612810cf8")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -22037,6 +22747,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34c69fa1-d013-4080-8c09-fcd3f9316d58")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f1196ea5-e41c-448f-a1a4-48be55fc6791")
 		(sheetname "Root")
@@ -22380,6 +23104,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3012bac-0cea-44ed-b6fd-d8c9a69861be")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47c02214-d79e-42c1-a34c-6cf821c0dc81")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -22813,6 +23551,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3b2afd6-c599-4511-9a09-81ea84508981")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/dadd81f5-3d35-41da-ba5b-d2f4a7ba2a32")
 		(sheetname "Root")
 		(sheetfile "SISK_left.kicad_sch")
@@ -23230,6 +23982,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0108f0c3-2fd0-4f21-96e0-46674f0a45d0")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e18ee30a-6ae3-452f-ae7b-7089214a4991")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -23697,6 +24463,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d24272a8-59c6-4d34-bf2c-cf9164c5d156")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9310a3b6-f752-47e1-9443-416e603ebec6")
 		(sheetname "Root")
@@ -24040,6 +24820,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f54c316e-6459-4ff9-8439-2cf86d925c82")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d1a11dc6-d9b4-4606-b9b2-b644890611c6")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -24465,6 +25259,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "60d0d381-c999-4536-bb3f-ab80749420c5")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99d41d33-81f3-4899-8e1d-a8604e459ad4")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -24932,6 +25740,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49168ea3-93b7-431a-bc87-11e5065fa028")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/92976ea3-91a8-482d-a03c-8db170de8227")
 		(sheetname "Root")
@@ -25317,6 +26139,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5291b1bb-1df3-4da8-abcc-250fcacfe344")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5e572e95-4b98-4aff-a3a6-bb23c26782eb")
 		(sheetname "Root")
@@ -25660,6 +26496,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "13622bf7-e474-435b-875c-717e81723888")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9d5325a-2709-44a6-a2a5-50dd9a14b0a9")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -26127,6 +26977,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c65e2a9-52a1-4658-a0bf-8c7e2e463cb0")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b10c7ca9-54dc-4d0b-b528-67d9dbc96696")
 		(sheetname "Root")
@@ -26512,6 +27376,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d6a3759-2853-4321-890f-2c8534f7ce01")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/474fc605-77dc-421b-8f9b-e1b32bc6541f")
 		(sheetname "Root")
@@ -26855,6 +27733,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ba4638e9-39d5-4bf0-8e8c-93930eeab69c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "030705c5-7393-448c-b616-8b83c441eff9")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -27225,7 +28117,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "2K2"
 			(at 0 -1.82 90)
 			(layer "B.Fab")
 			(uuid "4ad686bc-09d2-45c3-bbee-cc9b2f480a51")
@@ -27285,6 +28177,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9e370542-c07d-4f9f-8767-629defc3de92")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "RC1206JR-072K2L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee052c3a-9116-4e9d-9453-07cfe8220f1b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -27415,7 +28321,7 @@
 			(size 1.3 1.75)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.192308)
-			(net 48 "/VCC")
+			(net 48 "+3.3V")
 			(pintype "passive")
 			(uuid "e04ce0f4-fa90-4cab-8fd2-414c92d89409")
 		)
@@ -27514,6 +28420,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dda21dd7-7b0a-4089-adcb-30995c8846e9")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CPG151101S11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7008c5e1-172d-42d7-ad20-0e6ecc3ff7c4")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -27973,6 +28893,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aa8adb56-aeec-4f66-85bb-10c5075f0900")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1eb627bb-fb77-46ee-ae5f-0cd54ef74a62")
 			(effects
 				(font
 					(size 1.5 1.5)
