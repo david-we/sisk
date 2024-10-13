@@ -18,7 +18,7 @@ SiSK is meant as a wireless keyboard and my first prototype will use nice!nano v
 
 ### why?
 
-I know there similar keyboards out there, in fact there are also kits available that are in the same category. But still i was not satisfied with the existing solutions. Some where also hard to get in europe or had no ISO Layout. Another big point for me was the learning aspect, especially KiCAD and SMD soldering.
+I know there are similar keyboards out there, in fact there are also kits available that are in the same category. But still i was not satisfied with the existing solutions. Some where also hard to get in europe or had no ISO Layout. Another big point for me was the learning aspect, especially KiCAD and SMD soldering.
 
 
 ### history
